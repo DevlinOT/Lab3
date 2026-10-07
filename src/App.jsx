@@ -3,6 +3,8 @@ import NavigationBar from './components/NavigationBar.jsx'
 import Content from './components/Content';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Read from './components/Read';
+import Create from './components/Create';
 
 
 function App() {
@@ -13,8 +15,8 @@ function App() {
       <NavigationBar></NavigationBar>
       <Routes>
         <Route path='/' element={<Content></Content>}></Route>
-        <Route path='/header' element={<Header></Header>}></Route>
-        <Route path='/footer' element={<Footer></Footer>}></Route>
+        <Route path='/read' element={<Read></Read>}></Route>
+        <Route path='/create' element={<Create></Create>}></Route>
         </Routes>
       {/* <Header></Header>
      <Content></Content>
