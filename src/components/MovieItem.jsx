@@ -11,18 +11,18 @@ export default function MovieItem(props){
             <img src = {props.mymovie.Poster} alt={props.mymovie.Title}/> */}
 
 
-            // Create a Bootstrap card for the movie
+            {/* Create a Bootstrap card for the movie */}
             <Card style={{ width: '18rem' }}>
 
-    // Display the movie poster at the top of the card
+   {/* Display the movie poster at the top of the card */}
       <Card.Img variant="top" src= {props.mymovie.Poster}/>
       
                 
     <Card.Body>
-        // Display the movie title
+        {/* Display the movie title */}
         <Card.Title>{props.mymovie.Title}</Card.Title>
 
-        // Displays movie year
+        {/* Display the movie year */}
         <Card.Text>
          {props.mymovie.Year}
         </Card.Text>
